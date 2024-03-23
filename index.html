@@ -6,11 +6,9 @@
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="stylesheet" type="text/css" href="assets/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/main.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="script.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -77,26 +75,38 @@
                 Universității
                 din Bucure;ti. Acesta este un proiect pentru materia Tehnici Web.</p>
         </section>
-        <section class="intro">
-            <h2>Motivatie</h2>
-            <p> La ultimele alegeri parlamentare, în anul 2020, <b>trei din patru tineri români</b> au ales să stea
-                acasă. La
-                alegerile
-                generale cu cea mai mică prezență din istoria post-decembristă – <b>31,84%,</b> prezența tinerilor a
-                fost chiar
-                mai mică decât
-                media națională –<b>25,39%.</b> Și totuși, care este cauza? În 2022, în răspunsurile lor la
-                Barometrul
-                Tinerilor, două treimi
-                din tineri români au declarat că România merge într-o direcție greşită. Tot <b>două treimi</b> ne-au
-                spus
-                atunci că nu au
-                aproape deloc sau deloc încredere în Parlament.</p>
+        <section class="intro row2columns">
+            <div>
+                <h2>Motivatie</h2>
+                <p> La ultimele alegeri parlamentare, în anul 2020, <b>trei din patru tineri români</b> au ales să stea
+                    acasă. La
+                    alegerile
+                    generale cu cea mai mică prezență din istoria post-decembristă – <b>31,84%,</b> prezența tinerilor a
+                    fost chiar
+                    mai mică decât
+                    media națională –<b>25,39%.</b> Și totuși, care este cauza? În 2022, în răspunsurile lor la
+                    Barometrul
+                    Tinerilor, două treimi
+                    din tineri români au declarat că România merge într-o direcție greşită. Tot <b>două treimi</b> ne-au
+                    spus
+                    atunci că nu au
+                    aproape deloc sau deloc încredere în Parlament.</p>
+            </div>
+            <div class="container">
+                <h2>Prezenta la vot </h2>
+                <div class="chart-container">
+                    <canvas id="chart"></canvas>
+                </div>
+            </div>
         </section>
         <section class="intro">
             <h2>Scop</h2>
             <p>Scopul proiectului este de a prezenta informații despre candidații la alegerile europarlamentare din
-                2024.</p>
+                2024.
+            </p>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         </section>
         <section class="intro">
             <h2>Obiective</h2>
@@ -124,12 +134,6 @@
             <p>În secțiunea <a href="contact.html">Contact</a> puteți trimite sugestii sau întrebări.</p>
         </section>
 
-        <section class="intro">
-            <h2>Feedback</h2>
-            <p>În cazul în care aveți sugestii sau întrebări, vă rugăm să ne contactați folosind formularul de
-                contact
-                de mai jos.</p>
-        </section>
 
 
 
@@ -140,6 +144,7 @@
         <p> 2020 Proiectul</p>
     </footer>
     <script src="nav.js"></script>
+    <script src="assets/graphics.js"></script>
 </body>
 
 </html>

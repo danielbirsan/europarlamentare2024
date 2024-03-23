@@ -244,3 +244,9 @@ p {
 .politic a:hover {
     color: #050830;
 }
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
