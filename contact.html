@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <title>Proiectul</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/nav.css">
+    <link rel="stylesheet" type="text/css" href="assets/contact.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar sticky">
+        <a href="#" class="nav-logo">Europarlamentare 2024</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Despre</a>
+            </li>
+            <li class="nav-item">
+                <a href="propuneri.html" class="nav-link">Candidati</a>
+            </li>
+            <li class="nav-item">
+                <a href="plans.html" class="nav-link">Planuri</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <script src="nav.js"></script>
+
+    <main>
+        <section class="intro">
+            <h2>Feedback</h2>
+            <p>În cazul în care aveți sugestii sau întrebări, vă rugăm să ne contactați folosind formularul de
+                contact
+                de mai jos.</p>
+        </section>
+
+        <div class="center">
+            <div class="contact ">
+                <h2>Contacteaza-ne</h2>
+                <form action="contact.php" method="post">
+                    <input type="text" name="nume" placeholder="Nume" required>
+                    <input type="text" name="prenume" placeholder="Prenume" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="mesaj" placeholder="Mesaj" required></textarea>
+                    <button type="submit" name="submit">Trimite</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</html>
+
+<footer>
+    <p> 2020 Proiectul</p>
+</footer>
+
+</body>
+
+</html>

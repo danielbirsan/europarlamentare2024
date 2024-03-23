@@ -1,0 +1,26 @@
+.intro h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #003db7 !important;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    width: 80vw;
+    align-self: center;
+    font-size: 20px;
+
+    text-align: justify;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    list-style-type: none;
+}

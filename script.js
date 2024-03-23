@@ -88,6 +88,11 @@ const politicieni = [
         nume: 'Alexandru Muraru',
         descriere: 'Politician român, membru al Parlamentului European.',
         link_wikipedia: 'https://ro.wikipedia.org/wiki/Alexandru_Muraru'
+    },
+    {
+        nume: 'Mara Mares',
+        descriere: 'Presedinte al Tineretului National Liberal',
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Mara_Mare%C8%99'
     }
 ];
 
