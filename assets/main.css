@@ -44,7 +44,7 @@ li {
     list-style-type: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     .row2columns {
         display: grid;
         grid-template-columns: 40vw 50vw;
@@ -54,4 +54,13 @@ li {
 
 
     }
+}
+
+.intro a {
+    color: #003db7;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    color: #2c384f;
 }
