@@ -4,7 +4,6 @@ const participationData = {
     percentages: [39.67, 41.72, 39.49, 31.84]
 };
 
-// Creați un grafic cu participarea la alegeri
 const ctx = document.getElementById('chart').getContext('2d');
 const participationChart = new Chart(ctx, {
     type: 'bar',

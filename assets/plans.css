@@ -1,0 +1,113 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+p {
+    margin: 0 0 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #444;
+}
+
+p {
+    color: #666;
+}
+
+.vote-steps {
+    margin-bottom: 30px;
+}
+
+.vote-steps li {
+    margin-bottom: 10px;
+}
+
+.vote-steps li:last-child {
+    margin-bottom: 0;
+}
+
+.vote-steps li strong {
+    color: #333;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin-top: 15vh;
+    max-width: 90vw;
+}
+
+@media (min-width: 768px) {
+    main {
+        margin-top: 10vh;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.links a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #202e79;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+
+
+}
+
+.links a:hover {
+    background-color: #1c5ea4;
+}
+
+.links a:last-child {
+    margin-right: 0;
+}
+
+.links a:first-child {
+    margin-left: 0;
+}
+
+.links a:active {
+    transform: translateY(2px);
+}
+
+.links a:focus {
+    outline: none;
+}
+
+.links li {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 5px;
+}
