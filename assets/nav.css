@@ -104,7 +104,7 @@ nav ul li:hover::before {
 
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
@@ -169,4 +169,10 @@ nav ul li:hover::before {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.logo {
+    width: 4rem;
+    margin-left: 20px;
+
 }
