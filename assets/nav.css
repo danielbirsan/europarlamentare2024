@@ -104,7 +104,7 @@ nav ul li:hover::before {
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
@@ -144,4 +144,29 @@ nav ul li:hover::before {
         cursor: pointer;
     }
 
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
