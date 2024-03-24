@@ -1,0 +1,92 @@
+#politicieni-list {
+    margin: 3vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 2px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+}
+
+#politicieni-list2 {
+    margin: 3vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 2px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+}
+
+.politic {
+    margin: 3vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 2px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+}
+
+
+
+.politician {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 90vw;
+}
+
+.politician:hover {
+    transform: translateY(-5px);
+}
+
+.politician h2 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.politician p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+#politicieni-list a {
+    text-decoration: none;
+    color: #140acb;
+}
+
+#politicieni-list a:hover {
+    color: #050830;
+}
+
+#politicieni-list2 a {
+    text-decoration: none;
+    color: #140acb;
+}
+
+#politicieni-list2 a:hover {
+    color: #050830;
+}
+
+#politicieni-list3 a {
+    text-decoration: none;
+    color: #140acb;
+}
+
+#politicieni-list3 a:hover {
+    color: #050830;
+}
