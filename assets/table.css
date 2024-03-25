@@ -1,0 +1,90 @@
+/* Complete CSS for a responsive and scrollable table */
+
+/* Base styles for table */
+.table-container {
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+
+    th,
+    td {
+        font-size: 12px;
+        /* Adjust font size for smaller screens */
+        white-space: nowrap;
+        /* Prevent text wrapping */
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #2769a6;
+
+}
+
+a:hover {
+    color: #003db7;
+}
+
+/* Add a hover effect to the table rows */
+
+tr:hover {
+    background-color: #a1f8fa;
+
+}
+
+/* Add a hover effect to the table header and transition to make it bigger*/
+
+th:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.1);
+
+}
+
+.table-container {
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: #003db7;
+    border: #003db7;
+
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #003db7 !important;
+    margin-bottom: 20px;
+
+
+}
