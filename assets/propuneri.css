@@ -37,7 +37,15 @@
     list-style: none;
 }
 
-
+.politician-dosar {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d4b7b7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 90vw;
+    color: #2f0c0c
+}
 
 .politician {
     padding: 20px;
@@ -61,7 +69,7 @@
 .politician p {
     margin: 0;
     font-size: 16px;
-    color: #666;
+    color: #262424;
 }
 
 #politicieni-list a {

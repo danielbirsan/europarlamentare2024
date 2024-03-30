@@ -2,99 +2,138 @@ const politicieni = [
     {
         nume: 'Mihai Tudose',
         descriere: 'Fost prim-ministru al României.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Mihai_Tudose'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Mihai_Tudose',
+        dosar_penal: true,
+        href: './politicieni/mihai-tudose.html'
     },
     {
         nume: 'Rareș Bogdan',
         descriere: 'Politician român și jurnalist.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Rare%C8%99_Bogdan'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Rare%C8%99_Bogdan',
+        dosar_penal: false,
+        href: './politicieni/rares-bogdan.html'
     },
     {
         nume: 'Gabriela Firea',
         descriere: 'Politiciană română, fost primar al Bucureștiului.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Gabriela_Firea'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Gabriela_Firea',
+        dosar_penal: false,
+        href: './politicieni/gabriela-firea.html'
     },
     {
         nume: 'Dan Motreanu',
         descriere: 'Politician român, membru al Parlamentului.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Dan_Motreanu'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Dan_Motreanu',
+        dosar_penal: false,
+        href: './politicieni/dan-motreanu.html'
     },
     {
         nume: 'Claudiu Manda',
         descriere: 'Politician român, membru al Parlamentului.',
-        link_wikipedia: 'https://en.wikipedia.org/wiki/Claudiu_Manda'
+        link_wikipedia: 'https://en.wikipedia.org/wiki/Claudiu_Manda',
+        dosar_penal: false,
+        href: './politicieni/claudiu-manda.html'
     },
     {
         nume: 'Adina Vălean',
         descriere: 'Politiciană română, comisar european.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Adina_Ioana_V%C4%83lean'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Adina_Ioana_V%C4%83lean',
+        dosar_penal: false,
+        href: './politicieni/adina-valean.html'
     },
     {
         nume: 'Victor Negrescu',
         descriere: 'Politician român, membru al Parlamentului European.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Victor_Negrescu'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Victor_Negrescu',
+        dosar_penal: false,
+        href: './politicieni/victor-negrescu.html'
     },
     {
         nume: 'Daniel Buda',
         descriere: 'Politician român, membru al Parlamentului European.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Daniel_Buda'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Daniel_Buda',
+        dosar_penal: false,
+        href: './politicieni/daniel-buda.html'
     },
     {
         nume: 'Vasile Dîncu',
         descriere: 'Politician român, fost ministru al Dezvoltării Regionale.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Vasile_D%C3%AEncu'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Vasile_D%C3%AEncu',
+        dosar_penal: false,
+        href: './politicieni/vasile-dincu.html'
     },
     {
         nume: 'Maria Grapini',
         descriere: 'Politiciană română, membră a Parlamentului European.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Maria_Grapini'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Maria_Grapini',
+        dosar_penal: false,
+        href: './politicieni/maria-grapini.html'
     },
     {
         nume: 'Siegfried Mureșan',
         descriere: 'Politician român, membru al Parlamentului European.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Siegfried_Mure%C8%99an'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Siegfried_Mure%C8%99an',
+        dosar_penal: false,
+        href: './politicieni/siegfried-muresan.html'
     },
     {
         nume: 'Dragoș Benea',
         descriere: 'Politician român, membru al Parlamentului.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Adrian-Drago%C8%99_Benea'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Adrian-Drago%C8%99_Benea',
+        dosar_penal: false,
+        href: './politicieni/dragos-benea.html'
     },
     {
         nume: 'Mircea Hava',
         descriere: 'Politician român, membru al Parlamentului.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Mircea_Hava'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Mircea_Hava',
+        dosar_penal: false,
+        href: './politicieni/mircea-hava.html'
     },
     {
         nume: 'Gheorghe Cîrciu',
         descriere: 'Politician român, membru al Parlamentului.',
-        link_wikipedia: 'https://romania.europalibera.org/a/metropola-drp-200000-de-euro/32572259.html'
+        link_wikipedia: 'https://romania.europalibera.org/a/metropola-drp-200000-de-euro/32572259.html',
+        dosar_penal: true,
+        href: './politicieni/gheorghe-circiu.html'
     },
     {
         nume: 'Gheorghe Falcă',
         descriere: 'Politician român, fost primar al Aradului.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Gheorghe_Falc%C4%83'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Gheorghe_Falc%C4%83',
+        dosar_penal: false,
+        href: './politicieni/gheorghe-falca.html'
     },
     {
         nume: 'Virgil Popescu',
         descriere: 'Politician român, ministru al Economiei.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Virgil_Popescu'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Virgil_Popescu',
+        dosar_penal: true,
+        href: './politicieni/virgil-popescu.html'
     },
     {
         nume: 'Dan Nica',
         descriere: 'Politician român, membru al Parlamentului European.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Dan_Nica'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Dan_Nica',
+        dosar_penal: false,
+        href: './politicieni/dan-nica.html'
     },
     {
         nume: 'Alexandru Muraru',
         descriere: 'Politician român, membru al Parlamentului European.',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Alexandru_Muraru'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Alexandru_Muraru',
+        dosar_penal: false,
+        href: './politicieni/alexandru-muraru.html'
     },
     {
         nume: 'Mara Mares',
         descriere: 'Presedinte al Tineretului National Liberal',
-        link_wikipedia: 'https://ro.wikipedia.org/wiki/Mara_Mare%C8%99'
+        link_wikipedia: 'https://ro.wikipedia.org/wiki/Mara_Mare%C8%99',
+        dosar_penal: false,
+        href: './politicieni/mara-mares.html'
     }
 ];
+
 
 
 function afiseazaPoliticieni(listaPoliticieni, id) {
@@ -102,6 +141,10 @@ function afiseazaPoliticieni(listaPoliticieni, id) {
 
     listaPoliticieni.forEach(politician => {
         const listItem = document.createElement('li');
+        const wrapper = document.createElement('a');
+        wrapper.href = politician.href;
+        wrapper.target = '_blank';
+
         listItem.classList.add('politician');
 
         const heading = document.createElement('h2');
@@ -112,18 +155,36 @@ function afiseazaPoliticieni(listaPoliticieni, id) {
 
         const link = document.createElement('a');
         link.href = politician.link_wikipedia;
-        link.textContent = 'Mai multe informații';
+        link.textContent = 'Wikipedia';
         link.target = '_blank';
 
-        listItem.appendChild(heading);
-        listItem.appendChild(description);
-        listItem.appendChild(link);
+
+        if (politician.dosar_penal) {
+            listItem.style.color = 'red !important';
+            listItem.style.fontWeight = 'bold';
+            heading.style.color = 'black';
+
+            const text = document.createElement('p');
+            text.textContent = "Acest politician are dosar penal!";
+            text.style.color = 'red';
+            description.appendChild(text);
+            listItem.style.border = '1px solid red';
+            listItem.style.borderRadius = '10px';
+            listItem.style.backgroundColor = '#d4b7b7';
+
+
+        }
+        wrapper.appendChild(heading);
+        wrapper.appendChild(description);
+        wrapper.appendChild(link);
+        listItem.appendChild(wrapper);
+        wrapper.style.textDecoration = 'none';
 
         politicieniList.appendChild(listItem);
+
     });
 
 }
-
 
 
 const politicieni2 = [
