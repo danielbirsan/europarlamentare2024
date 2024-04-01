@@ -30,7 +30,11 @@ body {
     .profile-image {
         margin: 0;
         float: left;
+        max-width: 100%;
+
     }
+
+
 
 }
 
@@ -49,7 +53,7 @@ body {
 .profile-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px 0 0 8px;
+    border-radius: 8px;
 }
 
 .section {
@@ -78,4 +82,23 @@ ul li {
 
 ul li strong {
     font-weight: bold;
+}
+
+.accordion {
+
+    background-color: #f8f9fa;
+    color: #333;
+    cursor: pointer;
+    padding: 5px;
+    border: 2px solid #404346;
+    text-align: left;
+
+    transition: 0.4s;
+}
+
+.roww {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
 }
