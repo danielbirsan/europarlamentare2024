@@ -193,7 +193,7 @@ li {
 
 }
 
-.article {
+.art {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,13 +207,13 @@ li {
     margin: 50px auto;
 }
 
-.article img {
+.art img {
 
     border-radius: 10px;
     max-height: 20rem;
 }
 
-.article h2 {
+.art h2 {
     font-size: 1.5rem;
     font-weight: 600;
     color: #003db7;

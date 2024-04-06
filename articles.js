@@ -27,7 +27,7 @@ function renderArticles() {
         let articleDiv = document.createElement('div');
         articleDiv.innerHTML = `
          <a href="${article.href}">
-                <div class="article">
+                <div class="art">
                     <div class="imagewithtext">
                         <img src="${article.img}">
                         <h3>${article.title}</h3>
