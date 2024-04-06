@@ -357,6 +357,53 @@ function afiseazaPoliticieni(listaPoliticieni, id) {
 
 }
 
+function afiseazaPoliticieni2(listaPoliticieni, id) {
+    const politicieniList = document.getElementById(id);
+
+    listaPoliticieni.forEach(politician => {
+        const listItem = document.createElement('li');
+        const wrapper = document.createElement('a');
+        wrapper.href = politician.href;
+        wrapper.target = '_blank';
+
+        listItem.classList.add('politician');
+
+        const heading = document.createElement('h2');
+        heading.textContent = politician.nume;
+
+
+
+        const link = document.createElement('a');
+        link.href = politician.link_wikipedia;
+        link.textContent = 'Wikipedia';
+        link.target = '_blank';
+
+
+        if (politician.dosar_penal) {
+            listItem.style.color = 'red !important';
+            listItem.style.fontWeight = 'bold';
+            heading.style.color = 'black';
+
+            const text = document.createElement('p');
+            text.textContent = "Istoric negativ";
+            text.style.color = 'red';
+            description.appendChild(text);
+            listItem.style.border = '1px solid red';
+            listItem.style.borderRadius = '10px';
+            listItem.style.backgroundColor = '#ffdddd';
+
+
+        }
+        wrapper.appendChild(heading);
+        wrapper.appendChild(link);
+        listItem.appendChild(wrapper);
+        wrapper.style.textDecoration = 'none';
+
+        politicieniList.appendChild(listItem);
+
+    });
+
+}
 
 const politicieni2 = [
     {
@@ -1132,14 +1179,58 @@ const pusl = [
     }
 ];
 
+const proromania = [
+
+    {
+        "nume": "Victor Ponta",
+        "descriere": "Prim-ministru al României între 2012 și 2015. Ministru al Justiției și Ministru al Educației. Este fondatorul și liderul partidului PRO România. Înainte de a intra în politică, Ponta a fost profesor universitar la Universitatea din București și avocat. A fost, de asemenea, membru al Parlamentului European.",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Victor_Ponta",
+        "dosar_penal": true,
+        "href": "./politicieni/victor-ponta.html"
+    }
+
+];
+
+const ad = [
+    {
+        "nume": "Adela Mârza",
+        "descriere": "(Alternativa Dreaptă)",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Adela_M%C3%A2rza",
+        "dosar_penal": false,
+        "href": "./politicieni/adela-marza.html"
+    }
+
+];
+
+const indepenti = [
+
+    {
+        "nume": "Vlad Gheorghe",
+        "descriere": "MEP",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Vlad_Gheorghe",
+        "dosar_penal": false,
+        "href": "./politicieni/vlad-gheorghe.html"
+    },
+    {
+        "nume": "Nicu Ștefănuță",
+        "descriere": "MEP",
+        "link_wikipedia": "https://www.europarl.europa.eu/meps/en/58766/NICOLAE_STEFANUTA/home",
+        "dosar_penal": false,
+        "href": "./politicieni/nicu-stefanuta.html"
+    }
+
+]
 
 
 
 window.onload = function () {
     afiseazaPoliticieni(politicieni, 'politicieni-list');
     afiseazaPoliticieni(politicieni2, 'politicieni-list2');
-    afiseazaPoliticieni(politicieni3, 'politicieni-list3');
+    afiseazaPoliticieni2(politicieni3, 'politicieni-list3');
     afiseazaPoliticieni(candidatiUDMR, 'politicieni-list4');
     afiseazaPoliticieni(politicieni5, 'politicieni-list5');
     afiseazaPoliticieni(pusl, 'politicieni-list6');
+    afiseazaPoliticieni(proromania, 'politicieni-list7');
+    afiseazaPoliticieni(ad, 'politicieni-list8');
+    afiseazaPoliticieni(indepenti, 'politicieni-list9');
 };

@@ -13,10 +13,10 @@ articles =
             href: "table.html"
         },
         {
-            title: "Article 3",
-            content: "This is the content of article 3",
-            img: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
-            href: "https://www.google.com"
+            title: "Cum se votează?",
+            content: "Află care sunt regulile de votare pentru alegerile europarlamentare.",
+            img: "assets/howtovote.png",
+            href: "howtovote.html"
         }
     ]
 

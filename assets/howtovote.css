@@ -1,0 +1,79 @@
+.text {
+    text-align: justify;
+    font-size: 2rem !important;
+    font-weight: 500;
+
+    margin: 2 rem;
+    max-width: 80vw;
+    align-self: center;
+
+}
+
+.text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 95vw;
+    border-radius: 10px;
+    min-width: 50vw;
+}
+
+.faq-item h3 {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.faq-item p {
+    display: none;
+}
+
+.faq-item p.show {
+    display: block;
+}
+
+.faq-item .arrow {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: transform 0.3s ease;
+
+    align-self: flex-end;
+}
+
+.faq-item .rotate {
+    transform: rotate(180deg);
+}
+
+
+.faq-item .arrow::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #333;
+}
+
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 1rem;
+    color: #003db7 !important;
+}
