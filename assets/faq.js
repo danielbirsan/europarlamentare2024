@@ -17,18 +17,7 @@ const faqItems = [
     },
     {
         title: " Cine poate vota?", description: "În România, poți vota la alegerile europene dacă: ai cel puțin 18 ani, împliniți până în ziua alegerilor inclusiv sau daca ești cetățean român sau cetățean UE, cu domiciliul sau reședința pe teritoriul României, în conformitate cu procedura administrativă aplicabilă."
-    },
-    {
-        title: " ", description: " "
-    },
-
-    {
-        title: " ", description: " "
-    },
-
-    {
-        title: " ", description: " "
-    },
+    }
 ];
 
 // Function to render FAQ components

@@ -6,17 +6,18 @@ articles =
             img: "assets/history.png",
             href: "results.html"
         },
-        {
-            title: "Sondaje 2024",
-            content: "Afla care sunt sondajele de opinie pentru alegerile europarlamentare din 2024.",
-            img: "assets/stats.png",
-            href: "table.html"
-        },
+
         {
             title: "Cum se votează?",
             content: "Află care sunt regulile de votare pentru alegerile europarlamentare.",
             img: "assets/howtovote.png",
             href: "howtovote.html"
+        },
+        {
+            title: "Sondaje 2024",
+            content: "Afla care sunt sondajele de opinie pentru alegerile europarlamentare din 2024.",
+            img: "assets/stats.png",
+            href: "table.html"
         }
     ]
 

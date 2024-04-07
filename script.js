@@ -326,7 +326,7 @@ function afiseazaPoliticieni(listaPoliticieni, id) {
 
         const link = document.createElement('a');
         link.href = politician.link_wikipedia;
-        link.textContent = 'Wikipedia';
+        link.textContent = 'Mai multe informații';
         link.target = '_blank';
 
 
@@ -375,7 +375,7 @@ function afiseazaPoliticieni2(listaPoliticieni, id) {
 
         const link = document.createElement('a');
         link.href = politician.link_wikipedia;
-        link.textContent = 'Wikipedia';
+        link.textContent = 'Mai multe informații';
         link.target = '_blank';
 
 
@@ -1227,7 +1227,7 @@ window.onload = function () {
     afiseazaPoliticieni(politicieni, 'politicieni-list');
     afiseazaPoliticieni(politicieni2, 'politicieni-list2');
     afiseazaPoliticieni2(politicieni3, 'politicieni-list3');
-    afiseazaPoliticieni(candidatiUDMR, 'politicieni-list4');
+    afiseazaPoliticieni2(candidatiUDMR, 'politicieni-list4');
     afiseazaPoliticieni(politicieni5, 'politicieni-list5');
     afiseazaPoliticieni(pusl, 'politicieni-list6');
     afiseazaPoliticieni(proromania, 'politicieni-list7');
