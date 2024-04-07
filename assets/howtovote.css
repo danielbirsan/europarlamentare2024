@@ -98,3 +98,12 @@ ul {
     display: grid;
     place-items: center;
 }
+
+a {
+    text-decoration: none;
+    color: #003db7;
+}
+
+a:hover {
+    color: #1c5ea4;
+}

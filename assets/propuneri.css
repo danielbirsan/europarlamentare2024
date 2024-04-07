@@ -98,3 +98,9 @@
 #politicieni-list3 a:hover {
     color: #050830;
 }
+
+
+.cent {
+    display: grid;
+    place-items: center;
+}
