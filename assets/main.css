@@ -200,3 +200,11 @@ main {
     transform: scale(1.1);
     background-color: #ffffff;
 }
+
+
+.importante {
+    font-size: 2rem;
+    font-weight: 900;
+
+    margin: 1rem;
+}

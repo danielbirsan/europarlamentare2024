@@ -283,3 +283,11 @@ nav {
     color: #003db7;
     margin-bottom: 20px;
 }
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
