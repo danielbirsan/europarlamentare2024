@@ -79,7 +79,7 @@ p {
 
 .row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
 }
 
@@ -96,7 +96,7 @@ footer {
 .pages {
     margin: 3vw;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 
     background-color: #fff;
@@ -164,10 +164,6 @@ main {
 
 @media (max-width: 600px) {
 
-    h2,
-    h3 {
-        font-size: 1rem !important;
-    }
 
     .intro h2 {
         font-size: 1.5rem !important;
