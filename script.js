@@ -1219,9 +1219,157 @@ const indepenti = [
         "href": "./politicieni/nicu-stefanuta.html"
     }
 
-]
+];
 
-
+const pdu = [
+    {
+        "nume": "Marius S Mocan",
+        "descriere": "Sociolog, Activist Civic",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Marius_S_Mocan",
+        "dosar_penal": false,
+        "href": "./politicieni/marius-s-mocan.html"
+    },
+    {
+        "nume": "Florin Călinescu",
+        "descriere": "Regizor, Prezentator",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Florin_Călinescu",
+        "dosar_penal": false,
+        "href": "./politicieni/florin-călinescu.html"
+    },
+    {
+        "nume": "Lavinia Drăgusin",
+        "descriere": "Inginer",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Lavinia_Drăgusin",
+        "dosar_penal": false,
+        "href": "./politicieni/lavinia-drăgusin.html"
+    },
+    {
+        "nume": "Adrian B. Cadar",
+        "descriere": "Consultant în Asigurări, Activist Civic",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Adrian_B._Cadar",
+        "dosar_penal": false,
+        "href": "./politicieni/adrian-b-cadar.html"
+    },
+    {
+        "nume": "Carleta E. Pasat",
+        "descriere": "Meteorolog",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Carleta_E._Pasat",
+        "dosar_penal": false,
+        "href": "./politicieni/carleta-e-pasat.html"
+    },
+    {
+        "nume": "Ilona Duța",
+        "descriere": "Jurnalist",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Ilona_Duța",
+        "dosar_penal": false,
+        "href": "./politicieni/ilona-duța.html"
+    },
+    {
+        "nume": "Ana Badea",
+        "descriere": "Expert Contabil",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Ana_Badea",
+        "dosar_penal": false,
+        "href": "./politicieni/ana-badea.html"
+    },
+    {
+        "nume": "Delia Bercea",
+        "descriere": "Economist",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Delia_Bercea",
+        "dosar_penal": false,
+        "href": "./politicieni/delia-bercea.html"
+    },
+    {
+        "nume": "Lucian Roiban",
+        "descriere": "Conferențiar Universitar",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Lucian_Roiban",
+        "dosar_penal": false,
+        "href": "./politicieni/lucian-roiban.html"
+    },
+    {
+        "nume": "Eugen Ionescu",
+        "descriere": "Medic",
+        "link_wikipedia": "",
+        "dosar_penal": false,
+        "href": "./politicieni/eugen-ionescu.html"
+    },
+    {
+        "nume": "Cosmin Vidican",
+        "descriere": "Inginer Silvic",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Cosmin_Vidican",
+        "dosar_penal": false,
+        "href": "./politicieni/cosmin-vidican.html"
+    },
+    {
+        "nume": "Marian Peticila",
+        "descriere": "Director CNAIR",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Marian_Peticila",
+        "dosar_penal": false,
+        "href": "./politicieni/marian-peticila.html"
+    },
+    {
+        "nume": "Denis Antonie",
+        "descriere": "Project Manager",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Denis_Antonie",
+        "dosar_penal": false,
+        "href": "./politicieni/denis-antonie.html"
+    },
+    {
+        "nume": "Delia Bardos",
+        "descriere": "Economist",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Delia_Bardos",
+        "dosar_penal": false,
+        "href": "./politicieni/delia-bardos.html"
+    },
+    {
+        "nume": "Marius Mariș",
+        "descriere": "Manager Transport, Activist Civic",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Marius_Mariș",
+        "dosar_penal": false,
+        "href": "./politicieni/marius-marish.html"
+    },
+    {
+        "nume": "Alina Ichim",
+        "descriere": "Manager Transport",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Alina_Ichim",
+        "dosar_penal": false,
+        "href": "./politicieni/alina-ichim.html"
+    },
+    {
+        "nume": "Nicolae Olar",
+        "descriere": "Consultant IBM",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Nicolae_Olar",
+        "dosar_penal": false,
+        "href": "./politicieni/nicolae-olar.html"
+    },
+    {
+        "nume": "Lazăr Monu",
+        "descriere": "Inginer Construcții",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Lazăr_Monu",
+        "dosar_penal": false,
+        "href": "./politicieni/lazar-monu.html"
+    },
+    {
+        "nume": "Cristian Deaconu",
+        "descriere": "Director Proiecte PLM",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Cristian_Deaconu",
+        "dosar_penal": false,
+        "href": "./politicieni/cristian-deaconu.html"
+    },
+    {
+        "nume": "Alexandru Surdu",
+        "descriere": "Inginer Energetician",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Alexandru_Surdu",
+        "dosar_penal": false,
+        "href": "./politicieni/alexandru-surdu.html"
+    },
+    {
+        "nume": "Mădălin Merca",
+        "descriere": "Economist",
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Mădălin_Merca",
+        "dosar_penal": false,
+        "href": "./politicieni/madalin-merca.html"
+    }
+];
 
 window.onload = function () {
     afiseazaPoliticieni(politicieni, 'politicieni-list');
@@ -1233,4 +1381,5 @@ window.onload = function () {
     afiseazaPoliticieni(proromania, 'politicieni-list7');
     afiseazaPoliticieni(ad, 'politicieni-list8');
     afiseazaPoliticieni(indepenti, 'politicieni-list9');
+    afiseazaPoliticieni(pdu, 'politicieni-list10');
 };
