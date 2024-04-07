@@ -15,8 +15,8 @@ nav {
 nav a {
     text-decoration: none;
     color: #170101;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 nav a:hover {

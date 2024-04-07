@@ -106,3 +106,9 @@ footer a {
     font-weight: 900;
     font-size: 6.5vw;
 }
+
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
