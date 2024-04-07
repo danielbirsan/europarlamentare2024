@@ -1,7 +1,7 @@
 .container {
     max-width: 90vw;
     margin: 50px auto;
-    padding: 40px;
+
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -79,10 +79,10 @@ ul {
 
 @media (max-width: 768px) {
     .container {
-        padding: 20px;
+
         max-width: 90vw;
         margin: 50px auto;
-        padding: 40px;
+
         background-color: #ffffff00;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0);
