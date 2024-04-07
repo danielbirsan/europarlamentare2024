@@ -8,6 +8,15 @@
 
 }
 
+a {
+    text-decoration: none;
+
+    color: #003db7;
+}
+
+a:hover {
+    color: #1c5ea4;
+}
 
 h1 {
     font-family: 'Lato', sans-serif;
