@@ -128,7 +128,8 @@ body {
 }
 
 .grid {
-    max-width: 90vw;
+    width: 90%;
+    margin: 0 auto;
 }
 
 iframe {
