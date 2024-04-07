@@ -73,5 +73,15 @@ main {
     width: 100vw;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .contact {
+        width: 90%;
+    }
+}
+
+.mare {
+    font-size: 2rem;
 
 }
