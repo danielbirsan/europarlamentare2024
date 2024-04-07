@@ -18,6 +18,13 @@ articles =
             content: "Afla care sunt sondajele de opinie pentru alegerile europarlamentare din 2024.",
             img: "assets/stats.png",
             href: "table.html"
+        },
+        {
+            title: "Ce e Parlamentul European?",
+
+            img: "assets/ue.png",
+            href: "ue.html",
+            content: "Află detalii despre Parlamentul European."
         }
     ]
 
