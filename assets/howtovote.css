@@ -8,19 +8,23 @@
     align-self: center;
     max-width: 90vw;
 
+
 }
 
 .text p {
     font-size: 1.5rem;
     font-weight: 400;
     margin: 1rem;
+    max-width: 90vw;
 }
+
 
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 90vw;
 }
 
 .faq-item {
@@ -32,6 +36,7 @@ main {
     max-width: 95vw;
     border-radius: 10px;
     min-width: 50vw;
+    max-width: 95vw;
 }
 
 .faq-item h3 {
