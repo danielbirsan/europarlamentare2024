@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+
 }
 
 
@@ -19,9 +22,10 @@ nav {
 
 p {
     font-family: 'Lato', sans-serif;
-    letter-spacing: 1px;
-    font-size: 14px;
+
+    font-size: 1rem;
     color: #333333;
+    max-width: 90vw;
 }
 
 

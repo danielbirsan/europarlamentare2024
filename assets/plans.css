@@ -10,6 +10,14 @@
 
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80vw;
+}
+
 h1,
 h2,
 p {
@@ -79,6 +87,11 @@ ul {
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-right: 10px;
     }
 
     .links {
@@ -151,7 +164,8 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    margin-left: 5px;
+    margin-left: 10px;
+
 }
 
 
