@@ -1,0 +1,53 @@
+.buletin {
+    margin-top: 200px;
+    position: relative;
+}
+
+.stampila {
+
+    position: absolute;
+    top: -1000px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top 0.5s;
+    opacity: 0;
+}
+
+.stampila.visible {
+    top: 50%;
+
+    opacity: 1;
+}
+
+.chenar {
+    display: flex;
+    flex-direction: column;
+}
+
+.roww {
+    display: flex;
+}
+
+.patrat {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    margin: 5px;
+    transition: background-color 0.5s;
+}
+
+.patrat.colorized {
+    background-color: rgb(28, 92, 196);
+
+}
+
+body {
+    cursor: url('./stampila.png'), auto;
+    /* Use your image path */
+}
+
+body {
+    cursor: url('ue.png'), auto;
+    /* Use your image path */
+}

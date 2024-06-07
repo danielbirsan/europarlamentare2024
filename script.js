@@ -1217,6 +1217,38 @@ const indepenti = [
         "link_wikipedia": "https://www.europarl.europa.eu/meps/en/58766/NICOLAE_STEFANUTA/home",
         "dosar_penal": false,
         "href": "./politicieni/nicu-stefanuta.html"
+    },
+    {
+        "nume": "Jurma Paul-Octavian",
+        "descriere": "Referent", // Ocupația curentă
+        "link_wikipedia": "https://octavianjurma.eu/", // Link Wikipedia bazat pe nume
+        "href": "./politicieni/jurma-paul-octavian.html" // Href bazat pe nume
+    },
+    {
+        "nume": "Pîrvănescu Paula-Marinela",
+        "descriere": "Antreprenor", // Ocupația curentă
+        "link_wikipedia": "https://pirvanescu.com/", // Link Wikipedia bazat pe nume
+        "href": "./politicieni/pirvanescu-paula-marinela.html" // Href bazat pe nume
+    },
+
+    {
+        "nume": "Mustățea Ilie-Cătălin",
+        "descriere": "fara informatii", // Ocupația curentă
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Mustățea_Ilie-Cătălin", // Link Wikipedia bazat pe nume
+        "href": "./politicieni/mustatea-ilie-catalin.html" // Href bazat pe nume
+    },
+
+    {
+        "nume": "Mîndru Petru",
+        "descriere": '"VIZUALIZEAZĂ"', // Ocupația curentă
+        "link_wikipedia": "https://ro.wikipedia.org/wiki/Mîndru_Petru", // Link Wikipedia bazat pe nume
+        "href": "./politicieni/mindru-petru.html" // Href bazat pe nume
+    },
+    {
+        "nume": "Șoșoacă Dumitru-Silvestru",
+        "descriere": '"VIZUALIZEAZĂ"', // Ocupația curentă
+        "link_wikipedia": "", // Fără informații disponibile
+        "href": "" // Fără link specificat
     }
 
 ];
