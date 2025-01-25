@@ -1,11 +1,11 @@
 # Europarlamentare Romania 2024
 
-
+https://danielbirsan.github.io/europarlamentare2024/
 ## Descriere proiect
 
 Acest proiect este un site web dedicat prezentării și analizei candidaților la alegerile pentru Parlamentul European din România în 2024. Scopul nostru este de a furniza informații complete și imparțiale despre candidați, platformele lor politice și alte aspecte relevante ale alegerilor europene.
 
-## Contribuie
+## Contributie
 
 Suntem mereu în căutare de contribuții și sugestii pentru a îmbunătăți acest proiect. Dacă dorești să contribuiți, te rugăm să urmezi acești pași:
 
